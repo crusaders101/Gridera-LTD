@@ -13,6 +13,7 @@ const nextConfig = {
   },
   output: 'export',
   basePath: isProd ? `/${repoName}` : '',
+  assetPrefix: isProd ? `/${repoName}/` : undefined,
   trailingSlash: true,
 }
 
